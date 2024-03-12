@@ -96,19 +96,19 @@ button {
     display: flex;
     flex-direction: column;
     flex: 0 0 auto;
-    width: 128px;
-    gap: 24px;
+    width: 156px;
+    gap: 8px;
     text-align: center;
 }
 .illustration {
     border: 2px solid #3882f6;
-    height: 128px;
+    height: 156px;
     border-radius: 10px;
 }
 .callout {
     background-color: #e5e7eb;
     margin: 0 -96px;
-    padding: 48px 200px;
+    padding: 72px 200px;
     font-size: 36px;
     font-style: italic;
     font-weight: light;
