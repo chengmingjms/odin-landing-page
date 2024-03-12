@@ -69,16 +69,38 @@ button {
     margin-top: 16px;
 }
 
-.footer {
-    text-align: center;
-}
-
 .main {
     display: flex;
     flex-direction: column;
     padding: 12px 96px;
+    align-items: center;
+    gap: 48px;
 }
 
+.illustrationsection {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.illustrationcontainer {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    width: 128px;
+    gap: 24px;
+    text-align: center;
+}
+.illustration {
+    border: 2px solid #3882f6;
+    height: 128px;
+    border-radius: 10px;
+}
 .callout {
     background-color: #e5e7eb;
 }
+
+.footer {
+    text-align: center;
+}
+
