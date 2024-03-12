@@ -30,10 +30,31 @@ body {
     font-size: 18px;
 }
 
+.herocontainer {
+    display: flex;
+    gap: 48px;
+    padding: 48px 0px;
+}
+
+.hero {
+    width: 50%;
+    flex: 1;
+}
+
 .heromain {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+}
+
+.heroimage {
+    width: 50%;
+    flex: 1;
+    background-color: darkgrey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 button {
@@ -44,6 +65,9 @@ button {
     padding: 6px 24px;
 }
 
+.signupbutton {
+    margin-top: 16px;
+}
 
 .footer {
     text-align: center;
