@@ -50,7 +50,7 @@ body {
 .heroimage {
     width: 50%;
     flex: 1;
-    background-color: darkgrey;
+    background-color: #6d747d;
     color: white;
     display: flex;
     align-items: center;
@@ -72,9 +72,15 @@ button {
 .main {
     display: flex;
     flex-direction: column;
-    padding: 12px 96px;
+    padding: 48px 96px;
     align-items: center;
     gap: 48px;
+    color: #1f2937;   
+}
+
+.maintitle {
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .illustrationsection {
@@ -98,6 +104,21 @@ button {
 }
 .callout {
     background-color: #e5e7eb;
+    margin: 0 -96px;
+    padding: 48px 200px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.calloutattribution {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
 }
 
 .footer {
