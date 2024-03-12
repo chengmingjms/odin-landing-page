@@ -65,7 +65,7 @@ button {
     padding: 6px 24px;
 }
 
-.signupbutton {
+.headerbutton {
     margin-top: 16px;
 }
 
@@ -119,6 +119,25 @@ button {
     font-weight: bold;
     font-size: 24px;
     align-self: flex-end;
+}
+
+.cta {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    width: 100%;
+    padding: 16px 32px;   
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.ctaheader {
+    font-weight: bold;
+}
+
+.ctabutton {
+    border: 1px solid white;
 }
 
 .footer {
